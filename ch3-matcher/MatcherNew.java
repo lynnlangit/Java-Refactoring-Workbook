@@ -7,7 +7,7 @@ public class MatcherNew {
        for (int i = 0; actual.length; i++)
        {
            if (actual[i] > cliplimit)
-           actual[i] = cliplimit
+           actual[i] = cliplimit;
            
            if (acutal.length != expected.length) || (Math.abs(expected[i] - acutal[i] > delta))
            return false;
